@@ -11514,6 +11514,10 @@ pre .code {
   background-attachment: fixed;
   color: #fff;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
 .header .container {
   position: relative;
