@@ -11506,8 +11506,19 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+  /*background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);*/
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../imgs/header.jpg) center center no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  color: #fff;
+}
+.header2{
+  padding-top: 7rem;
+  padding-bottom: 5.5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../imgs/header.jpg) center center no-repeat;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11743,8 +11754,8 @@ pre .code {
 /* The Close Button */
 .close {
   position: absolute;
-  /*top: 50px;*/
-  right: 35px;
+  top: 105px;
+  right: 12px;
   color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
